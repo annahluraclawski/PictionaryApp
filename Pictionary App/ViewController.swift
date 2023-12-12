@@ -15,5 +15,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func beginButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "toGame", sender: self)
+    }
+    
+    
 }
 

@@ -17,6 +17,7 @@
 		994557902B1F7CE1005C364C /* Pictionary_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945578F2B1F7CE1005C364C /* Pictionary_AppTests.swift */; };
 		9945579A2B1F7CE1005C364C /* Pictionary_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994557992B1F7CE1005C364C /* Pictionary_AppUITests.swift */; };
 		9945579C2B1F7CE1005C364C /* Pictionary_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945579B2B1F7CE1005C364C /* Pictionary_AppUITestsLaunchTests.swift */; };
+		99D85D9F2B221ADA005B3514 /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D85D9E2B221ADA005B3514 /* ViewControllerGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		994557952B1F7CE1005C364C /* Pictionary AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pictionary AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		994557992B1F7CE1005C364C /* Pictionary_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictionary_AppUITests.swift; sourceTree = "<group>"; };
 		9945579B2B1F7CE1005C364C /* Pictionary_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictionary_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D85D9E2B221ADA005B3514 /* ViewControllerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				994557772B1F7CDF005C364C /* SceneDelegate.swift */,
 				994557792B1F7CDF005C364C /* ViewController.swift */,
 				9945577B2B1F7CDF005C364C /* Main.storyboard */,
+				99D85D9E2B221ADA005B3514 /* ViewControllerGame.swift */,
 				994557812B1F7CE1005C364C /* Assets.xcassets */,
 				994557832B1F7CE1005C364C /* LaunchScreen.storyboard */,
 				994557862B1F7CE1005C364C /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D85D9F2B221ADA005B3514 /* ViewControllerGame.swift in Sources */,
 				9945577A2B1F7CDF005C364C /* ViewController.swift in Sources */,
 				994557802B1F7CDF005C364C /* Pictionary_App.xcdatamodeld in Sources */,
 				994557762B1F7CDF005C364C /* AppDelegate.swift in Sources */,
